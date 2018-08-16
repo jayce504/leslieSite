@@ -1,0 +1,22 @@
+.navbar-nav {
+  background-color: #0a872b;
+}
+
+.nav-link {
+  color: #efedef;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: #efedef;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-image: url(../images/books.jpg);
+  height: 40vw;
+  border-radius: 0;
+  border: none;
+  background-position: center center;
+  background-size: cover;
+}
