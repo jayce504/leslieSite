@@ -1,0 +1,47 @@
+<% include ./partials/header.ejs %>
+
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-15">
+        <label for="name"> Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-15">
+        <label for="name">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your email address">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-15">
+        <label for="country">Type Of Law</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="family">Family Law</option>
+          <option value="criminal">Criminal Law</option>
+          <option value="estate">Estate Law</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-15">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="message" placeholder="How Can We Help?" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+<% include ./partials/footer.ejs %>
