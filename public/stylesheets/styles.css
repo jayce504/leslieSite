@@ -1,5 +1,7 @@
 html, body {
   height: 100%;
+  width: 100%;
+  background-color: #114210;
 }
 
 body {
@@ -44,9 +46,14 @@ body {
   background-color: #CFB53B;
   border: 0.1vw solid #CFB53B;
   border-radius: 25px;
-  width: 20vw;
-  height: 11vw;
+  width: 30vw;
+  height: 17vw;
   padding: 2vw;
+}
+
+#jumbotron-button {
+  margin-left: 5vw;
+  margin-top: 1.5vw;
 }
 
 /* Style inputs, select elements and textareas */
@@ -85,9 +92,10 @@ input[type=submit] {
   margin-top: 3vw;
   margin-bottom: 3vw;
   border-radius: 25px;
-  color: #efedef;
-  background-color: #038421;
+  color: #000;
+  background-color: #9fe59e;
   padding: 4vw;
+  width: 100vw;
 }
 
 /* Floating column for labels: 25% width */
@@ -98,9 +106,14 @@ input[type=submit] {
   margin-top: 6px;
 }
 
+.col-30 {
+  font-weight: bold;
+  width: 30%;
+  margin-top: 6px;
+}
+
 .col-40 {
   font-weight: bold;
-  float: left;
   width: 40%;
   margin-top: 6px;
 }
@@ -112,10 +125,15 @@ input[type=submit] {
 }
 
 .col-60 {
-  float: none;
-  width: 60%;
+  align: none;
+  width: 80%;
   margin-top: 6px;
   text-align: justify;
+}
+
+.col-70 {
+  width: 70%;
+  margin-top: 6px;
 }
 
 /* Clear floats after the columns */
@@ -126,27 +144,49 @@ input[type=submit] {
 }
 
 #family-law-pic {
-  max-width: 60%;
-  max-height: 20vw;
+  width: 90%;
+  max-height: 30vw;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#logo {
   border-radius: 25px;
-  margin-left: 20%;
-  margin-right: 20%;
+  height: 10vw;
+  width: 25vw;
 }
 
 #leslie-pic {
-  max-width: 25vw;
-  max-height: 20vw;
+  max-width: 30vw;
+  max-height: 25vw;
   border-radius: 25px;
 }
 
 #police-pic {
-  max-width: 60%;
-  max-height: 20vw;
-  border-radius: 25px;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 90%;
+  max-height: 30vw;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
+#estate-pic {
+  float: left;
+  clear: none;
+  padding: 0 20px 20px 0;
+  max-width: 20vw;
+  max-height: 25vw;
+  border-radius: 25px;
+}
+
+#estate-text {
+  width: 65%;
+  height: auto;
+  float: left;
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
@@ -160,7 +200,7 @@ input[type=submit] {
   padding-left: 0.5vw;
   color: #efedef;
   font-size: 0.8vw;
-  position: absolute;
+  position: fixed;
   left: 0 ; right: 0; bottom: 0;
   height: 1.2vw;
 }

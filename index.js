@@ -3,6 +3,7 @@ const app = express()
 
 app.get('/', (req, res) => res.render('landing'))
 app.get('/about', (req, res) => res.render('about'))
+app.get('/staff', (req, res) => res.render('staff'))
 app.get('/criminal_law', (req, res) => res.render('criminal_law'))
 app.get('/family_law', (req, res) => res.render('family_law'))
 app.get('/estate_law', (req, res) => res.render('estate_law'))
