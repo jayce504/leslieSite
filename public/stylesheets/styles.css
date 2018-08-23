@@ -10,11 +10,12 @@ body {
   position:relative;
   padding-bottom: 1.2vw;
 }
+
 .navbar-nav {
     float:none;
     margin:0 auto;
     text-align: center;
-    background-color: #038421;
+    background-color: #3a6e47;
 }
 
 .nav-link {
@@ -29,7 +30,7 @@ body {
 }
 
 .navbar-brand:hover {
-  background-color: #CFB53B;
+  background-color: #3a6e47;
   color: green;
 }
 
@@ -46,6 +47,8 @@ body {
   background-color: #CFB53B;
   border: 0.1vw solid #CFB53B;
   border-radius: 25px;
+  margin-left: 33vw;
+  margin-top: 8vw;
   width: 30vw;
   height: 17vw;
   padding: 2vw;
@@ -53,7 +56,16 @@ body {
 
 #jumbotron-button {
   margin-left: 5vw;
-  margin-top: 1.5vw;
+  margin-top: -3.7vw;
+  margin-left: 43.3vw;
+  border: none;
+  background-color: #CFB53B;
+  color: #000;
+}
+
+#jumbotron-button:hover {
+  border: none;
+  background-color: #c1a730;
 }
 
 /* Style inputs, select elements and textareas */
@@ -154,8 +166,12 @@ input[type=submit] {
 
 #logo {
   border-radius: 25px;
-  height: 10vw;
-  width: 25vw;
+  height: 15vw;
+  width: 30vw;
+  margin-left: 33vw;
+  margin-top: 5vw;
+  border: 2.5vw solid #3a6e47;
+  border-bottom: 5vw solid #3a6e47;
 }
 
 #leslie-pic {
@@ -196,7 +212,8 @@ input[type=submit] {
 }
 
 .footer {
-  background-color: #038421;
+  background-color: #3a6e47;
+  text-align: center;
   padding-left: 0.5vw;
   color: #efedef;
   font-size: 0.8vw;
